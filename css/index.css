@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --btn-color: #c7047c;
+    --bg: #291120;
+    /* --bg: #2f1324; */
+
+    --bg2: #0c050c;
+    --secondary: #2c303b;
+    --faint: #aeb2bd;
+    --dark: #2c303b;
+}
+
+
+
+body {
+    /* background: radial-gradient(circle at top right, var(--bg), var(--bg2)); */
+    background: radial-gradient(circle at top right, var(--bg) 10%, var(--bg2) 65%);
+    margin: 0;
+    padding: 0 3px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: white;
+    height: 110vh;
+}
+
+.button-pad {
+    padding: 10px 40px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #c7047ccf;
+    padding: 3px;
+    margin-top: 10px;
+
+}
+
+.gradient-line {
+    margin-top: 10px;
+    width: 70%;
+    background: linear-gradient(to left, #c7047c5e 40%, #5e043c5e 60%);
+    padding: 1px;
+}
+
+.exchage-img {
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.amount-container {
+    background: var(--dark);
+    color: var(--faint);
+    height: 70px;
+    margin: 10px 6px;
+    border-radius: 7px;
+    max-width: 90%;
+}
+
+.straight-line{
+    height: 100%;
+    /* padding: 2px; */
+    width: 1.3px;
+    background-color: #aeb2bd;
+}
+
+.continue-btn{
+    background: var(--dark);
+    padding: 10px;
+    width: 90%;
+    border-radius: 40px;
+
+}
